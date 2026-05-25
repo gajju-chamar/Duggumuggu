@@ -1,7 +1,7 @@
 import asyncio
 import uvloop
-from pyrogram import Client
-from pyrogram.types import BotCommand
+from pyrofork import Client
+from pyrofork.types import BotCommand
 from pytgcalls import PyTgCalls
 from bot.core.config import API_ID, API_HASH, BOT_TOKEN, SESSION_STRING
 import bot.handlers.pm

@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrofork import Client, filters
 from bot.database.redis_cache import get_queue, clear_queue, remove_specific_track
 from bot.utils.ui_formatters import queue_ui
 from bot.utils.decorators import sudo_and_chat_restricted

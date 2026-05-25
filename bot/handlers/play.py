@@ -1,5 +1,5 @@
-from pyrogram import Client, filters
-from pyrogram.types import Message
+from pyrofork import Client, filters
+from pyrofork.types import Message
 from pytgcalls.types import AudioQuality, Update
 from pytgcalls.types.stream import StreamAudioEnded
 from pytgcalls.types.input_stream import AudioPiped, AudioParameters

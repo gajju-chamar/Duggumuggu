@@ -1,5 +1,5 @@
-from pyrogram import Client
-from pyrogram.types import Message
+from pyrofork import Client
+from pyrofork.types import Message
 from bot.core.config import SUDO_USERS, ALLOWED_CHATS, OWNER_USERNAME
 from functools import wraps
 

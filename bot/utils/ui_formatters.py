@@ -1,4 +1,4 @@
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrofork.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 def playing_now_ui(title: str, artist: str, duration: str, requested_by: str, status: str = "Playing...") -> tuple[str, InlineKeyboardMarkup]:
     text = f"""╭──────────────────╮

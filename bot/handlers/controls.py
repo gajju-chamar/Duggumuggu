@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrofork import Client, filters
 from bot.database.redis_cache import get_queue, clear_queue, pop_queue, add_to_queue
 from bot.utils.decorators import sudo_and_chat_restricted
 from bot.handlers.play import start_stream
